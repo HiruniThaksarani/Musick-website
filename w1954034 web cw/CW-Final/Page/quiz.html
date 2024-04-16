@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <link rel="stylesheet" href="../Style/nav.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="../Style/quiz.css">
+    <link rel="stylesheet" href="../Style/navigation.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="btn">
+            <i class="fas fa-bars" ></i>
+         </label>
+        <a href="main1.html" class="img"></a>
+        <a href="main1.html" class="logo">MUSICK</a>
+         <ul>
+            <li><a class="under" href="main1.html">HOME</a></li>
+            <li><a class="under" href="comment_form.html">COMMENTS</a></li>
+            <li><a class="under" href="#">SHOP</a></li>
+            <li><a class="under" href="#">SITE MAP</a></li>
+            <li><a class="under" href="../Page/quizddd.html">Quiz</a></li>
+            <li><a class="under" href="#">gallery</a></li>
+            <li><a class="under" href="../Page/student-detail.html">about us</a></li>
+            <li><a class="under" href="../Page/additional-Pop.html">additional info</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Content -->
+    
+    <div class="container">
+        <div class="start-screen">
+            
+            <img src="../Img/quiz-2058883.png" alt="background image1" class="bacground-img">
+            <button id="start-button" class="start-button"><img src="../Img/start-1426743_1920.png" alt="start button"></button>
+            
+        </div>
+        
+        
+        <div id="main-container">
+            
+            <div class="header">
+                <!-- Question count and timer -->
+                <div class="number-of-count">
+                    <span class="number-of-question">
+                        1 of 10 questions
+                        
+                    </span>
+                </div>
+                <div class="timer">
+                    <img src="../Img/time2.png" alt="timer icon"  >
+                    <span class="timer-left"></span>
+                </div>
+                
+            </div>
+            <hr>
+            <div id="quiz-container">
+                <!--Question and Answers-->
+            </div>
+            <button id="next-button" class="quiz-button">Next</button>                                              
+        </div>
+        <!-- Result container (hidden by default) -->
+        <div class="result-container hide">
+            <div id="user-score">Demo Score</div>
+            <button id="restart-button" class="restart-button">Restart</button>
+        </div>
+
+    </div>
+    
+    <div class="editor">
+        <a href="../Page/pageEditor-hiruni.html">Page Editor</a>
+    </div>
+    
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container-f">
+            <div class="row-f">
+                <div class="footer-col">
+                    <h4>Page Editors (Group members)</h4>
+                    <ul>
+                        <li><a href="">Student 1-Charuka</a></li>
+                        <li><a href="page-editor-jaindu.html">Student 2-Jaindu</a></li>
+                        <li><a href="../Page/pageEditor-hiruni.html">Student 3-Hiruni</a></li>
+                        <li><a href="">Student 4-Himansi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>our services</h4>
+                    <ul>
+                        <li><a href="">shop</a></li>
+                        <li><a href="">quiz</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Follow us </h4>
+                    <div class="social-links">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <a href="main1.html" class="logob"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JS/questions.js"></script>   
+    <script src="../JS/quiz.js"></script>
+</body>
+</html>

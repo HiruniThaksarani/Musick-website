@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.bottom{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    height: 125%; 
+}
+h1{
+    padding-top: 50px;
+}
+.container .student{
+    padding-top: 30px;
+    
+}
+.container{
+    width: 65%;
+    height: 120%;
+    margin: auto;
+    margin-top: 100px;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #eba3a3;
+}
+
+.container h2{
+    padding-top: 55px;
+}
+.container p{
+    padding-top: 20px;
+    text-align: justify;
+    margin: 10px;
+    color: rgb(248, 15, 93);
+}
+.container .end{
+    margin-bottom: 50px;
+}
+.container a{
+    margin-top: 30px;
+    color: rgb(16, 21, 44);
+    font-weight: bold;
+    background-color: #eba3a3;
+    border-style: solid;
+    /* border-color: rgb(221, 70, 70); */
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+.container a:hover{
+    background-color: rgb(145, 41, 57);
+    color: #fff;
+    padding: 10px;
+}
+.student{
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+hr{
+    border-color: rgb(242, 1, 1);
+}

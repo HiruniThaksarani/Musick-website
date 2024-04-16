@@ -1,0 +1,164 @@
+.mp4video-r{
+    border-radius: 3px; 
+    position: absolute;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    margin: 300px 0px 0px 300px;
+}
+
+.mp4-r{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.topic-R h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120px;
+    color: #ffffff;
+    transition: 0.4s;
+    margin-top: -150px;
+}
+
+.topic-R h1:hover{
+    color: #fafafa;
+    opacity: 80%;
+}
+
+.topic-R a{
+    display: inline-block;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    font-size: 24px;
+    padding: 14px 70px;
+    border-radius: 20px;
+    margin-top: 1px;
+    transition: 0.4s;
+    background-color: #a3a3a385;
+}
+.topic-R a:hover{
+    background-color: #767676;
+    color: #000000;
+    opacity: 60%;
+}
+
+
+.topic{
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+.container{
+    margin-left: 10%;
+    width: 75%;
+    height:500px;
+    padding: 100px 50px 50px 50px; 
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+img{
+    float:left ;
+    width: 500px;
+    height: 400px;
+    padding: 0 10px 0 0;
+}
+.text{
+    color: rgb(184, 183, 183);
+    text-align: justify;
+    font-size: 25px;
+    
+}
+.sub-topic{
+    font-size: 30px;
+    margin-left: 100px;
+    padding: 20px;
+    color: #ffffff;
+}
+.name{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.artists , .albumbs{
+    padding: 50px 150px 150px 150px;
+    background-position: center;
+    background-size: cover;
+    transition: transform .8s;
+    display:inline-block;
+    
+}
+
+.artists img ,.albumbs img {
+    width: 200px;
+    height: 250px;
+    padding: 20px 20px  20px 0 ;
+    
+}
+
+.albumbs{
+    background-color: rgb(49, 49, 50);
+}
+.album1{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)) ,url(../Img/album1.png);
+   
+}
+.album2{
+    background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)) , url(../Img/album2.png);
+    
+}
+.album3{
+    background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)) , url(../Img/album3.png);
+}
+.album4{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)) ,url(../Img/album4.png);
+}
+.album5{
+    background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)) , url(../Img/album5.png);
+}
+.album:hover{
+    transform: translate(-20px);
+}
+
+.album , .artist{
+    display: inline-table;
+    width: 200px;
+    height: 250px;
+    border: .5px rgb(226, 226, 226) solid;
+    border-radius: 4px;
+    padding: 15px 25px;
+    margin: 20px 20px 0px;
+    background-position: center;
+    background-size: cover;
+    transition: transform .8s;
+    margin-bottom: 0%;
+}
+
+.artist1{
+    background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)) ,url(../Img/artist1.jpg);
+}
+.artist2{
+    background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)) , url(../Img/artist2.jpg);
+}
+.artist3{
+    background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)) , url(../Img/artist3.jpg);
+}
+.artist4{
+    background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)) , url(../Img/artist4.webp);
+}
+.artist5{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)) ,url(../Img/artist5.jpg);
+}
+
+.editor{
+    
+    font-size: 25px;
+    font-weight: 1000;
+    margin-left: 25px;
+}
